@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1700px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* Header */
+
+header {
+    height: 270px;
+    background-color: white;
+}
+
+.header_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_div nav {
+    margin: auto;
+}
+
+.header_logo {
+    width: 320px;
+    margin: 30px 50px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+header nav ul li:hover {
+    color: rgb(196, 156, 46);
+}
+
+.header_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header_input input {
+    width: 900px;
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(161, 161, 161);
+    font-size: 1.2rem;
+    color: white;
+}
+
+input::placeholder {
+    margin: auto;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* Main */
+
+/* Hero */
+
+.hero_section {
+    height: 500px;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.hero_card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 60px;
+}
+
+.hero_card input {
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    border: solid 1px black;
+    background-color: lightgray;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.hero_card input::placeholder {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.hero_card button {
+    border: none;
+    border-radius: 30px;
+    height: 60px;
+    padding: 0 50px;
+    font-size: 1.1rem;
+    background-color: rgb(196, 156, 46);
+    color: white;
+    cursor: pointer;
+}
+
+/* Lançamentos */
+
+.lancamentos {
+    height: 700px;
+    padding-top: 110px;
+    background-color: lightblue;
+}
+
+.lancamentos h2 {
+    font-size: 3rem;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.lancamentos_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: brown;
+    box-shadow: 5px 8px 3px rgba(0, 0, 0, 0.295);
+}
+
+.card_titulo {
+    padding: 12px;
+    border-radius: 30px 30px 0 0 ;
+    color: white;
+    background-color: rgb(107, 57, 16);
+
+}
+
+.card_info {
+    padding: 18px;
+    padding-bottom: 35px;
+    border-radius: 0 0 30px 30px;
+    color: black;
+    background-color: rgb(107, 57, 16);
+}
+
+
